@@ -19,7 +19,7 @@ BinarySearchTree.prototype.add = function(value) {
     if (value>this.value) {
       return this.right.add(value)
     }
-  }
+}
 
   //Checking if a value exists (return true) in a Bst, otherwise return false. 
   BinarySearchTree.prototype.contains = function(value) {
@@ -45,4 +45,3 @@ BinarySearchTree.prototype.add = function(value) {
     return this.right.max();
   }
 
-  
