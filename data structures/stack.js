@@ -2,7 +2,7 @@
 function Stack() {
     this.contents = {};
     this.length = 0;
-  }
+}
 
 //Adding an element to the top of a stack (push)
 Stack.prototype.push = function(value) {
